@@ -1,0 +1,21 @@
+{
+    "name": "hipster/discount",
+    "description": "Hipster Discount Package for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "Hipster\\Discount\\": "src/"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Hipster\\Discount\\PackageServiceProvider"
+        ]
+      }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+  }
+  
