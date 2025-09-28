@@ -52,3 +52,12 @@ After cloning the package into `packages/Hipster/Discount`, update your Laravel 
     }
 }
 
+### 3. Publish the package's configuration file and migrations:
+
+php artisan vendor:publish --provider="HipsterDiscount\HipsterDiscountServiceProvider"
+
+### 4. Run the package's tests to ensure everything is working correctly:
+
+php artisan test
+
+
